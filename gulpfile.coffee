@@ -1,4 +1,4 @@
-"use strict"
+"use sct"
 
 bower    = require('bower')
 sh       = require('shelljs')
@@ -14,6 +14,13 @@ paths =
     './app/scripts/**/*.coffee'
   ]
   views:   ['./app/views/**/*.jade']
+  assets:  ['./app/assets/**']
+
+
+
+gulp.task "copy", ->
+  gulp.src(paths.assets)
+    .pipe(gulp.dest('./www/'))
 
 gulp.task 'sass', (done) ->
   gulp.src(paths.styles)
