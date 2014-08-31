@@ -1,15 +1,15 @@
-App = angular.module("app", ['ionic'])
+App = angular.module("app", ['ionic', 'templates'])
 
 App.config ($stateProvider, $urlRouterProvider) ->
   $stateProvider
   .state("tab",
     url: "/tab"
     abstract: true
-    templateUrl: "/tabs.html"
+    templateUrl: '/templates/tabs.html'
   ).state("tab.home",
     url: "/home"
     views:
       "home-tab":
-        templateUrl: "/home.html"
+        templateUrl: "/templates/home.html"
   )
   $urlRouterProvider.otherwise "/tab/home"
