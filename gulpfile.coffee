@@ -20,16 +20,15 @@ gulp.task "sass", (done) ->
     .pipe(rename(extname: ".min.css"))
     .pipe(gulp.dest("./www/css/"))
     .on "end", done
-  return
+
 
 gulp.task "watch", ->
   gulp.watch paths.sass, ["sass"]
-  return
+
 
 gulp.task "install", ["git-check"], ->
   bower.commands.install().on "log", (data) ->
     gutil.log "bower", gutil.colors.cyan(data.id), data.message
-    return
 
 
 gulp.task "git-check", (done) ->
@@ -40,4 +39,3 @@ gulp.task "git-check", (done) ->
       "\n  Once git is installed, run '" + gutil.colors.cyan("gulp install") + "' again."
     process.exit 1
   done()
-  return
