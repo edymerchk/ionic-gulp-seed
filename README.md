@@ -44,10 +44,12 @@ Distributed under MIT license.
 
 ## TODO
 
-* Improve sample app
-* Testing suite
-* Releasing to app store and google play store Readme
-* Support for several environments
+* Take out the compiled files from git.
+* Improve sample app.
+* Testing suite.
+* Releasing to app store and google play store Readme.
+* Support for several environments.
+* Add useful hooks.
 
 
 
