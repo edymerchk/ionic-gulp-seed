@@ -2,14 +2,31 @@ Ionic Gulp Seed
 ===============
 
 
-This is a template for building mobile apps using like HTML, CSS, and Javascript.
+This is a seed template for building mobile apps using like HTML, CSS, and Javascript.
 
 It uses [PhoneGap](http://phonegap.com/) for compiling/supporting different devices, [AngularJs](http://angularjs.org/) for the application framework, [Gulp.js](http://gulpjs.com/) for work-flow/application and [Ionic](http://ionicframework.com/) a powerful HTML5 native app development framework.
 
 
 ## Getting started
 
-TODO
+* Clone this repo
+* Install node: Go to http://nodejs.org/ and use their installer
+* Install cordova, ionic and gulp: `npm install -g cordova ionic gulp`
+* Install Dependencies with `npm install`
+* Build your app using gulp `gulp`
+* Run in Browser `ionic serve`
+
+
+### Run on Android Device
+
+* Add the platform: `ionic platform android`
+* Plug your phone and run: `ionic run android`
+
+
+### Run on iOS
+
+* Add the platform: `ionic platform ios`
+* Plug your phone and run: `ionic run ios`
 
 
 ## Contributing
