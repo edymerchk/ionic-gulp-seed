@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:6
+-keep class com.ionicframework.ionic_gulp_seed80412.ionicgulpseed { <init>(...); }
+

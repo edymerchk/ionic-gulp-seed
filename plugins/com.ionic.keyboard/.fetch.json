@@ -1,1 +1,1 @@
-{"source":{"type":"local","path":"/Users/luislaverde/.plugman/cache/com.ionic.keyboard/1.0.3/package"}}
+{"source":{"type":"git","url":"https://github.com/driftyco/ionic-plugins-keyboard.git","subdir":"."}}

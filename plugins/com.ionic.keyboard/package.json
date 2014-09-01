@@ -3,16 +3,11 @@
     "name": "com.ionic.keyboard",
     "cordova_name": "Keyboard",
     "description": "Ionic Keyboard Plugin",
-    "license": "Apache 2.0",
     "repo": "https://github.com/driftyco/ionic-plugins-keyboard.git",
     "issue": "https://github.com/driftyco/ionic-plugins-keyboard/issues",
+    "license": "MIT",
     "keywords": [
-        "Ionic",
+        "ionic",
         "keyboard"
-    ],
-    "platforms": [
-        "android",
-        "ios"
-    ],
-    "engines": []
+    ]
 }
