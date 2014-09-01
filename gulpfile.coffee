@@ -36,7 +36,6 @@ gulp.task 'sass', (done) ->
 gulp.task 'coffee', (done) ->
   gulp.src(paths.scripts)
     .pipe($.plumber(errorHandler: $.notify.onError("Error: <%= error.message %>")))
-    .pipe($.ngClassify(appName: 'starter'))
     .pipe($.coffee(bare: false).on('error', $logger))
     .pipe($.jshint(".jshintrc"))
     .pipe($.jshint.reporter('jshint-stylish'))
