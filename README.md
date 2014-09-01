@@ -4,7 +4,7 @@ Ionic Gulp Seed
 
 This is a seed template for building mobile apps using like HTML, CSS, and Javascript.
 
-It uses [PhoneGap](http://phonegap.com/) for compiling/supporting different devices, [AngularJs](http://angularjs.org/) for the application framework, [Gulp.js](http://gulpjs.com/) for work-flow/application and [Ionic](http://ionicframework.com/) a powerful HTML5 native app development framework.
+It uses [PhoneGap](http://phonegap.com/) for compiling/supporting different devices, [AngularJs](http://angularjs.org/) for the application framework, [Gulp.js](http://gulpjs.com/) for work-flow/application and [Ionic](http://ionicframework.com/) a powerful HTML5 native app development framework, [Jade](http://jade-lang.com/) for write the templates, [$templateCache](https://docs.angularjs.org/api/ng/service/$templateCache) to cache those templates, [coffeescript](http://coffeescript.org/) to write less code that compiles into JavaScript, [sass](http://sass-lang.com/) to write CSS with superpowers.
 
 
 ## Getting started
