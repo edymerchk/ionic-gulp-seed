@@ -29,6 +29,10 @@ It uses [PhoneGap](http://phonegap.com/) for compiling/supporting different devi
 * Plug your phone and run: `ionic run ios`
 
 
+## License
+
+Distributed under MIT license.
+
 ## Contributing
 
 1. Fork it
@@ -38,12 +42,18 @@ It uses [PhoneGap](http://phonegap.com/) for compiling/supporting different devi
 5. Create new Pull Request
 
 
+## TODO
+
+* Improve sample app
+* Testing suite
+* Releasing to app store and google play store Readme
+* Support for several environments
+
+
+
 ## Author
 This was written by [Luis Edimerchk Laverde](http:///edymerchk.com).
 
 
-## License
-
-Distributed under MIT license.
 
 Enjoy!
