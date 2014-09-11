@@ -44,6 +44,7 @@ Distributed under MIT license.
 
 ## TODO
 
+* Include gulp task to copy/compile styles.
 * Take out the compiled files from git.
 * Improve sample app.
 * Testing suite.
