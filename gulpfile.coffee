@@ -9,10 +9,7 @@ $logger  = $.util.log
 
 paths =
   styles:  ['./app/styles/ionic.app.scss']
-  scripts: [
-    './app/scripts/app.coffee',
-    './app/scripts/**/*.coffee'
-  ]
+  scripts: ['./app/scripts/**/*.coffee']
   views:   ['./app/views/**/*.jade']
   assets:  ['./app/assets/**']
 
